@@ -1,0 +1,17 @@
+h1 {
+  Color: Blue;
+}
+.container {
+  background-color: Green;
+}
+body {
+  background-color: Red;
+}
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar li {
+  display: inline-block;
+}

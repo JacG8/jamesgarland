@@ -7,11 +7,28 @@ h1 {
 body {
   background-color: Red;
 }
-.navbar {
-  display: flex;
-  flex-wrap: wrap;
-
+.navbar li {
+  display: inline;
+  background-image: url("https://cdn.pixabay.com/photo/2016/01/31/05/29/boxes-1170966_960_720.jpg");
 }
+
+.login {
+  float: right;
+  margin-right: 10px;
+}
+
+.login a {
+  cursor: pointer;
+  margin-right: 30 px;
+  padding: 8px 18px;
+  border: 1px solid #204156;
+  position: relative;
+}
+
+.login a:active {
+  top: 5px;
+}
+
 
 .navbar li {
   display: inline-block;

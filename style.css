@@ -6,6 +6,8 @@ h1 {
 }
 body {
   background-color: Red;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .navbar li {
   display: inline;
